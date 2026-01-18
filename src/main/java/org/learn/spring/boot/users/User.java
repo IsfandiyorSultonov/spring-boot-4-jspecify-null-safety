@@ -1,4 +1,8 @@
 package org.learn.spring.boot.users;
 
-public record User() {
+public record User(
+    String firstname,
+    String lastname,
+    String email
+) {
 }

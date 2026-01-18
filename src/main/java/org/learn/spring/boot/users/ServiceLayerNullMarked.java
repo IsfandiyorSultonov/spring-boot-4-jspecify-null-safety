@@ -1,11 +1,10 @@
-package org.learn.spring.boot;
+package org.learn.spring.boot.users;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.jspecify.annotations.NullMarked;
 import org.jspecify.annotations.Nullable;
-import org.learn.spring.boot.users.User;
 import org.springframework.stereotype.Service;
 
 @Service

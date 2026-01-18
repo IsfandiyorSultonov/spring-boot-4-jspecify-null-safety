@@ -1,4 +1,11 @@
 package org.learn.spring.boot.orders;
 
-public record Order() {
+import jakarta.annotation.Nullable;
+
+public record Order(
+    String email,
+   // Promo code defined as nullable value
+   @Nullable String promoCode
+) {
+
 }
